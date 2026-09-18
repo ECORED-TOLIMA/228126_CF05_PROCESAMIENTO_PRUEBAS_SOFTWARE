@@ -10,7 +10,7 @@
     position: absolute
     top: 14%
     right: 80%
-    width: 150px
+    width: 100px
   &-3
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
@@ -49,11 +49,11 @@
 
 //- Modulo cajones
 .cajon.C01
-  background-color: #9ECFFF
+  background-color: #F1E2FF
 .cajon.C02
-  background-color: #D5F4F8
+  background-color: #DFEFFF
 .cajon.C03
-  background-color: #FFEBBE
+  background-color: #F1E2FF
 .cajon.C04
   background-color: #FFE79E 
 .cajon.C05
@@ -63,11 +63,13 @@
 .cajon.C07
   background-color: #9ED1FF
 .cajon.C08
-  background-color: #DFEFFF
+  background-color: #F1E2FF
 .cajon.C09
-  background-color: #19538D
+  background-color: #D5AAFF
 .cajon.C10
-  background-color:#9ECFFF
+  background-color:#FFEBBE
+.cajon.C11
+  background-color:#DDA2FF
 //- Modulo tarjetas
 .tarjeta--tabla
   background-color: #CFE8FF
@@ -84,9 +86,9 @@
 .tarjeta--C05
   background-color: #9ED1FF
 .tarjeta--C06
-  background-color: #FFE79E 
+  background-color: #D5AAFF 
 .tarjeta--C07
-  background-color: #D5F4F8
+  background-color: #DFEFFF
 .tarjeta--C08
   background-color: #FFF7DF
 .tarjeta--C09
@@ -94,21 +96,21 @@
 .tarjeta--C10
   background-color: #FFFDC8
 .tarjeta-numerada__numero
-  background-color: #DEE4F0
+  background-color: #FFFA80
 .tarjeta--C11
   background-color: #FFF0C3
 .tarjeta--C12
-  background-color: #DFEFFF
+  background-color: #F1E2FF
 .tarjeta--C13
   background-color: #FFEBBE
 .tarjeta--C14
-  background-color: #D5F4F8
+  background-color: #DFEFFF
 .tarjeta--C15
-  background-color: #EFE8E8
+  background-color: #F9E7E7
 .tarjeta--C16
   background-color: #FBB03F
 .C01
-  color: #DEE4F0
+  color: #FFFA80
 .BG01
   background-image: url("../assets/curso/BG01.png")
   background-size: cover
@@ -158,7 +160,7 @@
   overflow: hidden !important  
   &:hover    
     .crd_hover_txt--body   
-      background-color: #EFE8E8
+      background-color: #F9E7E7
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
       h5.t2
@@ -182,7 +184,7 @@
   bottom: 0    
   transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
   transform: translateY(calc( 100% - 3.85rem ))
-  background-color: #EFE8E8
+  background-color: #F9E7E7
   h5.t2
       display: none
   h5.t1
@@ -304,7 +306,7 @@ thead
 //- Modulo acordions
 .acordion
   .acordion__activo
-    background-color: #D5F4F8
+    background-color: #DFEFFF
   .acordion__accion__btn--b
     background-color: #A10000  
     border: none
@@ -321,16 +323,16 @@ thead
 .linea-tiempo-d.color-acento-botones.especial
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
-      background-color: #D5F4F8 !important 
+      background-color: #DFEFFF !important 
     .tarjeta.tarjeta--gris
-      background-color: #4DD0E1
+      background-color: #9ECFFF
       span
         color: $black
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
     span
       color: #000 !important
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-    background-color: #EFE8E8
+    background-color: #F9E7E7
 .tarjeta.tarjeta--gris
   background-color: #A10000
 .linea-tiempo-d__item__number
@@ -374,7 +376,7 @@ thead
   &.crd--grayGrad
     padding: 2.4rem
     height: 100%
-    background-color: #EFE8E8
+    background-color: #F9E7E7
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -382,7 +384,7 @@ thead
     border-radius: 15px    
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
     &:hover      
-      background-color: #9ECFFF
+      background-color: #F1E2FF
       background-size: cover
       background-repeat: no-repeat
       background-position: center
@@ -392,7 +394,7 @@ thead
       background-position: center
       .bottomCircle
         &::before
-          background-color: #19538D
+          background-color: #D5AAFF
   &.crd--blue
     background-color: #69D7E5
   &.crd--border
@@ -427,3 +429,538 @@ thead
 .pasos-b__header__item--active .pasos-b__header__item__line-container:before
   background-color: #9D9D9D
 .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+
+.figura-flujo-ajuste
+  figure
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+    img
+      display: block
+      width: 100%
+      margin-left: 0 !important
+      margin-right: 0 !important
+
+.tabla-a.color-acento-contenido thead
+  border-color: #FFEBBE !important
+
+.BG06
+  background-image: url("../assets/curso/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center bottom
+  margin-inline: -3rem !important
+  overflow: hidden
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+
+  .BG06-row
+    max-width: 1140px
+    margin-left: auto !important
+    margin-right: auto !important
+    min-height: 330px
+    padding-top: 0 !important
+    padding-bottom: 0 !important
+
+  .desktop
+    align-self: stretch
+    display: flex !important
+    align-items: flex-end !important
+    margin-bottom: 0 !important
+    padding-bottom: 0 !important
+
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      display: flex
+      align-items: flex-end
+      justify-content: center
+
+      img
+        width: 100%
+        max-height: 330px
+        object-fit: contain
+        object-position: bottom center
+        display: block
+        margin-bottom: 0 !important
+
+  .col-lg-8
+    display: flex
+    align-items: center
+    padding-top: 1rem !important
+    padding-bottom: 2rem !important
+
+    .slyder-f
+      width: 100%
+    
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta.bgslyder3
+  background-color: #F8F6EF
+  padding: 1rem
+  margin: 1.5%
+  min-height: 250px
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .BG06
+    .BG06-row
+      padding-right: 2rem !important
+
+    .col-lg-8
+      padding-right: 2.5rem !important
+      padding-left: 1rem !important
+      overflow: hidden
+
+      .slyder-f
+        max-width: calc(100% - 1.5rem)
+        margin-left: auto
+        margin-right: auto
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+  .BG06
+    .BG06-row
+      max-width: 960px
+      padding-left: 1.5rem !important
+      padding-right: 1.5rem !important
+
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 2rem !important
+      padding-right: 2rem !important
+      display: flex
+      justify-content: center
+
+      .slyder-f
+        width: 100%
+        max-width: 850px
+        margin-left: auto
+        margin-right: auto
+
+    .tarjeta.bgslyder3
+      min-height: 280px
+      height: 100%
+      padding: 1.5rem 1.25rem !important
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      overflow-wrap: break-word
+      word-break: normal
+
+      p
+        font-size: 1rem
+        line-height: 1.35
+        margin-bottom: 0
+        max-width: 100%
+        text-align: center
+
+      img
+        width: 95px
+        max-width: 95px
+        height: auto
+        margin-left: auto
+        margin-right: auto
+
+@media (max-width: 991.98px)
+  .BG06
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .tarjeta.bgslyder3
+      img
+        width: 70px !important
+        max-width: 70px !important
+        height: auto !important
+        display: block
+        margin-left: auto !important
+        margin-right: auto !important
+
+      .col-7
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: auto
+        margin-right: auto
+
+@media (min-width: 1200px)
+  .BG06-cols6
+    .desktop
+      display: flex !important
+      align-items: flex-end !important
+      justify-content: center
+      overflow: visible
+
+      figure
+        width: 100%
+        height: 100%
+        margin: 0 !important
+        display: flex
+        align-items: flex-end
+        justify-content: center
+        overflow: visible
+
+        img
+          width: 118% !important
+          max-width: none !important
+          max-height: 390px !important
+          height: auto !important
+          object-fit: contain
+          object-position: bottom center
+          margin-bottom: 0 !important
+
+@media (min-width: 1200px) and (max-width: 1500px)
+  .BG06-cols6
+    .desktop
+      figure
+        justify-content: center !important
+        overflow: visible
+
+        img
+          width: 118% !important
+          max-height: 390px !important
+          transform: translateX(18px)
+          object-fit: contain
+          object-position: bottom center
+
+@media (min-width: 992px)
+  .BG06
+    .tarjeta.bgslyder3
+      display: grid !important
+      grid-template-rows: 95px auto 1fr !important
+      justify-items: center !important
+      align-items: start !important
+      justify-content: initial !important
+      padding-top: 1.5rem !important
+      padding-bottom: 1.5rem !important
+
+      > .row.justify-content-center.mb-3
+        grid-row: 1
+        width: 100%
+        height: 95px
+        min-height: 95px
+        margin-left: 0 !important
+        margin-right: 0 !important
+        margin-bottom: .5rem !important
+        display: flex !important
+        justify-content: center !important
+        align-items: center !important
+
+        .col-7
+          display: flex !important
+          justify-content: center !important
+          align-items: center !important
+          margin-left: auto !important
+          margin-right: auto !important
+
+          img
+            display: block
+            width: 80px !important
+            max-width: 80px !important
+            height: auto !important
+            margin-left: auto !important
+            margin-right: auto !important
+
+      > h4
+        grid-row: 2
+        width: 100%
+        margin-bottom: .75rem !important
+        text-align: center
+        align-self: start
+
+      > p
+        grid-row: 3
+        align-self: start
+        width: 100%
+        margin-bottom: 0 !important
+        text-align: center
+
+// Fondo Slyder x3
+
+.BG06-t6
+  background-size: 100% 100% !important
+  background-position: center center !important
+  min-height: 360px
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+
+  .BG06-row
+    min-height: 360px
+    align-items: center !important
+
+  .desktop
+    align-self: stretch
+    display: flex !important
+    align-items: flex-end !important
+    justify-content: center
+    overflow: visible
+
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      display: flex
+      align-items: flex-end
+      justify-content: center
+      overflow: visible
+
+      img
+        width: 112% !important
+        max-width: none !important
+        max-height: 365px !important
+        height: auto !important
+        object-fit: contain
+        object-position: bottom center
+        margin-bottom: 0 !important
+
+  .col-lg-8
+    padding-top: 1rem !important
+    padding-bottom: 1rem !important
+    display: flex
+    align-items: center
+
+    .slyder-f
+      width: 100%
+      max-width: 780px
+      margin-left: auto
+      margin-right: auto
+
+  .tarjeta.bgslyder3
+    min-height: 270px !important
+    max-height: 270px
+    padding: 1.3rem 1.1rem !important
+    display: grid !important
+    grid-template-rows: 88px auto 1fr !important
+    justify-items: center !important
+    align-items: start !important
+
+    > .row.justify-content-center.mb-3
+      grid-row: 1
+      width: 100%
+      height: 88px
+      min-height: 88px
+      margin-left: 0 !important
+      margin-right: 0 !important
+      margin-bottom: .7rem !important
+      display: flex !important
+      justify-content: center !important
+      align-items: center !important
+
+      .col-7
+        width: auto !important
+        max-width: none !important
+        flex: 0 0 auto !important
+        display: flex !important
+        justify-content: center !important
+        align-items: center !important
+        margin-left: auto !important
+        margin-right: auto !important
+
+        img
+          display: block
+          width: 82px !important
+          max-width: 82px !important
+          height: auto !important
+          margin-left: auto !important
+          margin-right: auto !important
+
+    > h5
+      grid-row: 2
+      width: 100%
+      margin-bottom: .8rem !important
+      text-align: center
+      line-height: 1.15
+      font-weight: 700
+
+    > p
+      grid-row: 3
+      width: 100%
+      margin-bottom: 0 !important
+      text-align: center
+      line-height: 1.35
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .BG06-t6
+    min-height: 340px
+
+    .BG06-row
+      min-height: 340px
+      padding-right: 1rem !important
+
+    .desktop
+      figure
+        img
+          width: 120% !important
+          max-height: 350px !important
+          transform: translateX(8px)
+
+    .col-lg-8
+      padding-left: .5rem !important
+      padding-right: 1.5rem !important
+
+      .slyder-f
+        max-width: 760px
+
+    .tarjeta.bgslyder3
+      min-height: 250px !important
+      max-height: 250px
+      grid-template-rows: 78px auto 1fr !important
+
+      > .row.justify-content-center.mb-3
+        height: 78px
+        min-height: 78px
+
+        .col-7
+          img
+            width: 74px !important
+            max-width: 74px !important
+
+.BG06-t6
+  .tarjeta.bgslyder3
+    > h5
+      margin-top: .7rem !important
+      margin-bottom: .8rem !important
+
+@media (max-width: 1400px)
+  .BG06-t6
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 2rem !important
+      padding-right: 2rem !important
+      display: flex !important
+      justify-content: center !important
+      align-items: center !important
+
+      .slyder-f
+        width: 100%
+        max-width: 850px
+        margin-left: auto
+        margin-right: auto
+
+@media (max-width: 991.98px)
+  .BG06-t6
+    .desktop
+      display: none !important
+
+    .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+      padding-left: 1.5rem !important
+      padding-right: 1.5rem !important
+
+.tabla-estudiantes
+  width: 100%
+  max-width: 100%
+  overflow: visible !important
+
+  table
+    width: 100% !important
+    max-width: 100% !important
+    min-width: 0 !important
+    border-collapse: collapse
+    table-layout: fixed
+
+  th,
+  td
+    border: 1px solid #12263F
+    text-align: center
+    vertical-align: middle
+    white-space: normal !important
+    word-break: break-word !important
+    overflow-wrap: anywhere !important
+    padding: .28rem .18rem
+    line-height: 1.1
+
+  th
+    background-color: #612692
+    color: #FFFFFF
+    font-weight: 700
+    font-size: 1rem
+
+  td
+    background-color: #F0F8FF
+    color: #12263F
+    font-size: 1rem
+
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+  .tabla-estudiantes
+    table
+      width: 100% !important
+      max-width: 100% !important
+      min-width: 0 !important
+
+    th,
+    td
+      font-size: 1rem !important
+      padding: .2rem .08rem !important
+      line-height: 1.05 !important
+
+
+@media (max-width: 991.98px)
+  .tabla-estudiantes
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch
+
+    table
+      width: 100% !important
+      min-width: 360px !important
+
+    th,
+    td
+      font-size: 1rem !important
+      padding: .22rem .2rem !important
+
+.bg
+  &-c1
+    background-color: #FFEBBE
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: center 
+    @media screen and (max-width: $bp-max-sm)
+      background-repeat: repeat
+      background-position: center top 
+      height: auto
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .svg-podcast-console
+    display: none !important
+
+@media (min-width: 768px) and (max-width: 1400px)
+  .svg-podcast-console
+    display: none !important
+
+@media (min-width: 425px) and (max-width: 1400px)
+  .svg-podcast-console
+    display: none !important
+
+@media (min-width: 375px) and (max-width: 1400px)
+  .svg-podcast-console
+    display: none !important
+
+@media (min-width: 320px) and (max-width: 1400px)
+  .svg-podcast-console
+    display: none !important
