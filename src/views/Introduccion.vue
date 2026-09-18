@@ -7,7 +7,8 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .row.justify-content-center.align-items-stretch.mb-4.g-0
+    
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-intro-c11
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C11.p-4.h-100.w-100
           p.mb-4(data-aos="fade-down") Este componente formativo se orienta al desarrollo de competencias fundamentales para la estructuración, organización y gestión eficiente de la información en entornos digitales. En un contexto donde los datos son un activo estratégico, este documento permite comprender cómo diseñar soluciones que garanticen integridad, disponibilidad y coherencia en el manejo de la información.
@@ -20,11 +21,14 @@
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4.svg-podcast-console
         figure
           img(src='@/assets/curso/intro/img01.png', alt='')
+    
     p.mb-4(data-aos="fade-down") Posteriormente, se abordan los principios de las bases de datos relacionales, profundizando en su teoría, componentes y en el uso de sistemas gestores de bases de datos. Se introduce el proceso de diseño mediante los modelos conceptual, lógico y físico, permitiendo estructurar soluciones de manera organizada y escalable.
+    
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .cajon.cajon.C02.p-4
           p.mb-0(data-aos="fade-down") El componente continúa con el diseño de bases de datos relacionales, incluyendo conceptos clave como normalización, modelo relacional, tipos de claves, entidades y dependencias, los cuales son esenciales para garantizar la integridad y eficiencia de los datos.
+    
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure

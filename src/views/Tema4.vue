@@ -7,7 +7,7 @@
         span 4
       h1 Lenguajes de sistemas gestores de bases de datos (DBMS)
     
-    .row.justify-content-center.align-items-stretch.mb-4.g-0
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-intro-c11
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C11.p-4.h-100.w-100
           p.mb-3(data-aos="fade-down") Los lenguajes de sistemas gestores de bases de datos constituyen el conjunto de instrucciones que permiten interactuar con una base de datos, definiendo su estructura, manipulando la información, controlando el acceso y gestionando las transacciones. Estos lenguajes son fundamentales para el funcionamiento de los sistemas de información, ya que permiten a los usuarios y aplicaciones comunicarse con el sistema gestor de bases de datos (DBMS) de manera estructurada y eficiente.
@@ -188,7 +188,7 @@
     .tarjeta.tarjeta--C11.px-4.py-3.d-inline-block.mb-4
       h3.mb-0 Importancia del DDL en el diseño de bases de datos y su aplicación en entornos reales
     
-    .row.justify-content-center.align-items-stretch.mb-4.g-0
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-intro-c11
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C11.p-4.h-100.w-100
           .col-lg-2.d-none.d-lg-block.mb-3

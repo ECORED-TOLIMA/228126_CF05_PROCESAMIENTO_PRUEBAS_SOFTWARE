@@ -76,7 +76,7 @@
     
     p.mb-4(data-aos="fade-down") El modelo relacional se fundamenta en principios matemáticos derivados de la teoría de conjuntos y la lógica formal, lo que permite definir estructuras precisas y operaciones consistentes sobre los datos. Este enfoque garantiza que la información pueda ser manipulada de manera estructurada, permitiendo realizar consultas, actualizaciones y eliminaciones sin comprometer la integridad del sistema.
     
-    .row.justify-content-center.align-items-stretch.mb-4.g-0
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-intro-c11
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C11.p-4.h-100.w-100
           p.mb-4(data-aos="fade-down") Uno de los principios clave es la independencia lógica de los datos, que permite modificar la estructura de la base de datos sin afectar las aplicaciones que la utilizan. Asimismo, el modelo relacional promueve la eliminación de redundancia, lo que reduce inconsistencias y mejora la calidad de la información.

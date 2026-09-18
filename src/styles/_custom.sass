@@ -2,20 +2,26 @@
   &-1
     animation: float1 1.5s ease-in-out infinite alternate
     position: absolute
-    top: 70%
-    right: 88%
-    width: 150px
-  &-2
-    animation: float1 1.5s ease-in-out infinite alternate
-    position: absolute
     top: 14%
     right: 80%
     width: 100px
-  &-3
-    animation: float2 2.8s ease-in-out infinite alternate
+  &-2
+    animation: rotate1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 66%
-    right: 12%
+    top: 70%
+    right: 10%
+  &-3
+    animation: rotate1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 80%
+    right: 10%
+
+@keyframes rotate1
+  from
+    transform: rotate(0deg)
+
+  to
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
@@ -964,3 +970,24 @@ thead
 @media (min-width: 320px) and (max-width: 1400px)
   .svg-podcast-console
     display: none !important
+
+.recurso-intro-c11
+  .svg-podcast-console
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      padding: 0 !important
+
+      img
+        width: 100%
+        height: 100%
+        display: block
+        object-fit: cover
+        object-position: center
+        margin: 0 !important
+        padding: 0 !important
+
+  .cajon.C11
+    border-radius: 0 !important
+    margin-left: -2px !important

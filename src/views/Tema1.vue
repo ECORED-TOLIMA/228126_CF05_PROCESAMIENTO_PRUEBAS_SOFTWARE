@@ -503,7 +503,7 @@
     
     p.mb-4(data-aos="fade-down") Las bases de datos relacionales constituyen el modelo tradicional más utilizado en el diseño de sistemas de información. Estas se fundamentan en el modelo relacional, en el cual la información se organiza en tablas compuestas por filas y columnas, estableciendo relaciones entre los datos mediante claves primarias y foráneas.
     
-    .row.justify-content-center.align-items-stretch.mb-4.g-0
+    .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-intro-c11
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C11.p-4.h-100.w-100
           p.mb-4(data-aos="fade-down") Este tipo de bases de datos se caracteriza por garantizar la integridad, consistencia y estructuración de la información, lo que las hace ideales para sistemas que requieren alta precisión, como sistemas financieros, administrativos y empresariales. Además, utilizan el lenguaje SQL (Structured Query Language) para la manipulación y consulta de datos.
