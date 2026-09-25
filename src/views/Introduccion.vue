@@ -36,7 +36,7 @@
       .col.col-lg-6.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Asimismo, se incorporan los lenguajes propios de los sistemas gestores de bases de datos (DDL, DML, DCL y VDL), que permiten definir, manipular, controlar y visualizar la información dentro de los sistemas.
         p.mb-0(data-aos="fade-down") Finalmente, se introduce el enfoque de bases de datos NoSQL, abordando sus conceptos, modelos, tipos y arquitecturas, así como las estrategias de diseño basadas en patrones de acceso y análisis de relaciones. Esto brinda una visión actualizada y flexible frente a las necesidades de almacenamiento de grandes volúmenes de datos y aplicaciones modernas.
-
+  
 </template>
 
 <script>

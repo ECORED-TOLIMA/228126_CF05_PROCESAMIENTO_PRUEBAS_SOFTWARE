@@ -414,7 +414,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/MKLWAcFz1Ds?si=tC20XmG9Yu2h986C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/c2jsf5cw9PY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

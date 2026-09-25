@@ -139,21 +139,21 @@
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/tema3/img11.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/tema3/img11.svg", alt="").img80.m-auto
           h5.text-center Primera Forma Normal (1FN)
           p La primera forma normal establece que todos los atributos de una tabla deben contener valores atómicos, es decir, que no se permiten valores repetidos ni grupos de datos dentro de un mismo campo.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/tema3/img12.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/tema3/img12.svg", alt="").img80.m-auto
           h5.text-center Segunda Forma Normal (2FN)
           p La segunda forma normal se alcanza cuando la tabla cumple con la 1FN y, además, todos los atributos dependen completamente de la clave primaria.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/tema3/img13.svg", alt="alt").img80.m-auto
+              img(src="@/assets/curso/tema3/img13.svg", alt="").img80.m-auto
           h5.text-center Tercera Forma Normal (3FN)
           p La tercera forma normal se cumple cuando la tabla está en 2FN y no existen dependencias transitivas, es decir, cuando los atributos no dependen de otros atributos que no sean la clave primaria.
     
