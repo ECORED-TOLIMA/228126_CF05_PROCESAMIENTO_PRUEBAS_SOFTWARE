@@ -471,7 +471,7 @@
     
     .row.justify-content-center.mb-4
       .col.col-12
-        p.mb-0(data-aos="fade-down") Para finalizar se detallan las siguientes acciones positivas y negativas de estos campos:
+        p.mb-0(data-aos="fade-down") Para finalizar, se detallan las siguientes acciones positivas y negativas de estos campos:
     
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col.col-12

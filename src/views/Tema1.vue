@@ -97,7 +97,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema1/img07.svg', alt='Figura 1 que presenta un esquema comparativo de los niveles de diseño de datos, mostrando la evolución desde un modelo conceptual hasta un modelo lógico y físico, a partir de las entidades de tiempo, producto, tienda y ventas, así como sus relaciones y estructura progresiva para el análisis de información.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_05_Relacion_entre_logica_algoritmia_y_bases_de_datos.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_01_Relacion_entre_logica_algoritmia_y_bases_de_datos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -265,7 +265,7 @@
             p.mb-0 Facilitar el diseño de sistemas de información.
           li
             i.fas.fa-file-code
-            p.mb-0 Mejorar la organización y almacenamiento de datos.
+            p.mb-0 Mejorar la organización y el almacenamiento de datos.
           li
             i.fas.fa-file-code
             p.mb-0 Reducir errores e inconsistencias.
@@ -289,7 +289,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema1/img17.svg', alt='Figura 2 que ilustra el proceso de representación de datos en un sistema académico, mostrando cómo se organizan y relacionan entidades como alumnos, tutores, profesores y asignaturas. El esquema incluye atributos personales, académicos y administrativos, así como procesos de matriculación, asignación e importación, evidenciando la estructura necesaria para el modelado de bases de datos.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_01_Proceso_de_representacion_de_la_informacion.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_02_Proceso_de_representacion_de_la_informacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -470,7 +470,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img23.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") En este contexto, las bases de datos se clasifican principalmente en relacionales, NoSQL, in memory y NewSQL, cada una con características particulares que determinan su uso, ventajas y limitaciones. Esta clasificación permite seleccionar el tipo de base de datos más adecuado, según las necesidades del sistema, el tipo de información a manejar y el entorno tecnológico. 
+        p.mb-0(data-aos="fade-down") En este contexto, las bases de datos se clasifican principalmente en relacionales, NoSQL, in-memory y NewSQL, cada una con características particulares que determinan su uso, ventajas y limitaciones. Esta clasificación permite seleccionar el tipo de base de datos más adecuado, según las necesidades del sistema, el tipo de información a manejar y el entorno tecnológico. 
     
     p.mb-4(data-aos="fade-down") Aunque el enfoque principal se centra en los cuatro tipos mencionados, resulta fundamental comprender su clasificación general, teniendo en cuenta que estas denominaciones se mantienen en inglés por tratarse de términos técnicos estandarizados:
     
@@ -486,7 +486,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema1/img24.svg', alt='Figura 3 que representa la clasificación general de las bases de datos, agrupando los principales modelos según su estructura y forma de almacenamiento.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_06_Representacion_de_la_clasificacion_general_de_las_bases_de_datos.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_03_Representacion_de_la_clasificacion_general_de_las_bases_de_datos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -574,7 +574,7 @@
             figure.mb-0
               img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
           .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
-            h3.mb-0 Bases de datos In-Memory
+            h3.mb-0 Bases de datos in-memory
     
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -590,7 +590,7 @@
       .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
-          span Comparación de bases de datos In-Memory
+          span Comparación de bases de datos in-memory
         .tabla-a.color-acento-contenido
           table
             thead
@@ -703,7 +703,7 @@
                 td(data-aos="fade-down") Alta
                 td(data-aos="fade-down") <em><em>Big data</em>, apps <em>web</em></em>.
               tr
-                td(data-aos="fade-down")(style="background-color: #FBFAF2") #[b In-Memory]
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") #[b in-memory]
                 td(data-aos="fade-down")(style="background-color: #FBFAF2") En RAM
                 td(data-aos="fade-down")(style="background-color: #FBFAF2") Alta
                 td(data-aos="fade-down")(style="background-color: #FBFAF2") Muy alta
@@ -727,7 +727,7 @@
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") El análisis de los usos, diferencias y ventajas de los distintos tipos de bases de datos constituye un aspecto fundamental en el diseño de sistemas de información, ya que permite seleccionar la tecnología más adecuada según las necesidades del entorno, el volumen de datos, la velocidad requerida y el tipo de aplicación a desarrollar. En la actualidad, la diversidad de modelos de bases de datos responde a la evolución de los sistemas digitales, los cuales demandan soluciones más flexibles, escalables y eficientes.
         .cajon.cajon.C08.color-primario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Cada tipo de base de datos — relacional, NoSQL, in memory y NewSQL — presenta características particulares que influyen directamente en su uso, comportamiento y desempeño. Por ello, comprender sus diferencias no solo facilita su implementación, sino que también permite optimizar recursos y garantizar soluciones tecnológicas adecuadas.
+          p.mb-0(data-aos="fade-down") Cada tipo de base de datos — relacional, NoSQL, in-memory y NewSQL — presenta características particulares que influyen directamente en su uso, comportamiento y desempeño. Por ello, comprender sus diferencias no solo facilita su implementación, sino que también permite optimizar recursos y garantizar soluciones tecnológicas adecuadas.
     
     .row.justify-content-center.mb-3
       .col-12
@@ -753,7 +753,7 @@
         .col-12.col-lg-6.order-lg-2.order-1
           figure
             img(src='@/assets/curso/tema1/img34.jpg', alt='')
-      .row.justify-content-center(titulo="In-Memory")
+      .row.justify-content-center(titulo="In-memory")
         .col-12.col-lg-6.order-lg-1.order-2
           p Se emplean principalmente en aplicaciones que requieren alta velocidad de procesamiento, como sistemas financieros en tiempo real, análisis de datos en vivo, videojuegos en línea y sistemas de recomendación. Al trabajar directamente en memoria RAM, reducen significativamente los tiempos de acceso a la información, lo que las hace ideales para entornos donde la latencia debe ser mínima.
         .col-12.col-lg-6.order-lg-2.order-1
@@ -788,7 +788,7 @@
           .col-lg-10.col-12
             p.mb-0 Otra diferencia importante radica en el enfoque de consistencia. Las bases de datos relacionales priorizan la integridad de los datos mediante el cumplimiento de las propiedades ACID, lo que garantiza transacciones seguras. En contraste, muchas bases de datos NoSQL adoptan un enfoque basado en la disponibilidad y la tolerancia a fallos, sacrificando en algunos casos la consistencia inmediata.
         .cajon.cajon.C08.color-primario.px-4.py-4.mb-4
-          p.mb-0(data-aos="fade-down") Las bases de datos In-Memory se diferencian por su ubicación de almacenamiento, ya que operan en memoria principal en lugar de disco, lo que les permite alcanzar altos niveles de rendimiento. Por su parte, las bases de datos NewSQL integran características de los sistemas relacionales tradicionales con arquitecturas distribuidas, logrando un equilibrio entre consistencia y escalabilidad.
+          p.mb-0(data-aos="fade-down") Las bases de datos in-memory se diferencian por su ubicación de almacenamiento, ya que operan en memoria principal en lugar de disco, lo que les permite alcanzar altos niveles de rendimiento. Por su parte, las bases de datos NewSQL integran características de los sistemas relacionales tradicionales con arquitecturas distribuidas, logrando un equilibrio entre consistencia y escalabilidad.
     
     .row.justify-content-center.mb-4
       .col-12
@@ -810,7 +810,7 @@
           .row(numero="2" titulo="NoSQL")
             .col-12.mb-4.mb-md-0
               p.mb-0 Ofrecen una gran ventaja en términos de flexibilidad y escalabilidad, permitiendo manejar grandes volúmenes de datos distribuidos en múltiples servidores. Esta característica es especialmente útil en aplicaciones que requieren adaptarse rápidamente a cambios en la estructura de la información.
-          .row(numero="3" titulo="In-Memory")
+          .row(numero="3" titulo="In-memory")
             .col-12.mb-4.mb-md-0
               p.mb-0 Su principal ventaja es la velocidad, ya que permiten acceder a los datos de manera casi inmediata. Esto mejora significativamente el rendimiento de las aplicaciones y reduce los tiempos de respuesta.
           .row(numero="4" titulo="NewSQL")
@@ -828,7 +828,7 @@
               img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
           .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
             h3.mb-0 Criterios para seleccionar un tipo de base de datos
-        p.mb-0 La elección del tipo de base de datos depende de múltiples factores, entre los que se destacan el volumen de datos, la velocidad de procesamiento requerida, el nivel de consistencia necesario, la estructura de la información y la capacidad de escalabilidad del sistema. En sistemas tradicionales, donde la precisión y la integridad son prioritarias, las bases de datos relacionales suelen ser la mejor opción. En entornos donde se manejan grandes volúmenes de datos y se requiere flexibilidad, las bases de datos NoSQL resultan más adecuadas. Para aplicaciones en tiempo real, las bases de datos In-Memory ofrecen un rendimiento superior, mientras que las bases de datos NewSQL son ideales para sistemas modernos que requieren equilibrio entre rendimiento y consistencia.
+        p.mb-0 La elección del tipo de base de datos depende de múltiples factores, entre los que se destacan el volumen de datos, la velocidad de procesamiento requerida, el nivel de consistencia necesario, la estructura de la información y la capacidad de escalabilidad del sistema. En sistemas tradicionales, donde la precisión y la integridad son prioritarias, las bases de datos relacionales suelen ser la mejor opción. En entornos donde se manejan grandes volúmenes de datos y se requiere flexibilidad, las bases de datos NoSQL resultan más adecuadas. Para aplicaciones en tiempo real, las bases de datos in-memory ofrecen un rendimiento superior, mientras que las bases de datos NewSQL son ideales para sistemas modernos que requieren equilibrio entre rendimiento y consistencia.
 
 </template>
 

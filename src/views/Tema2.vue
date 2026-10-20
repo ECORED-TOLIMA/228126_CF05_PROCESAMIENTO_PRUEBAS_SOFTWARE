@@ -59,7 +59,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img03.svg', alt='Figura 4 que muestra la estructura básica de una base de datos relacional, donde se representan las tablas de clientes, productos y ventas. El esquema evidencia el uso de llaves primarias para identificar registros y llaves secundarias o foráneas para establecer relaciones entre las tablas, permitiendo la integridad y coherencia de los datos dentro del sistema.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_07_Representacion_de_una_estructura_basica_de_una_base_de_datos_relacional.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_04_Representacion_de_una_estructura_basica_de_una_base_de_datos_relacional.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -180,7 +180,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img10.svg', alt='Figura 5 que representa el modelo conceptual de una base de datos, mostrando las entidades autor, libro, ejemplar y usuario, junto con sus atributos principales. El diagrama ilustra las relaciones entre dichas entidades, indicando las cardinalidades uno a uno, uno a muchos y muchos a muchos, así como los procesos de escritura, préstamo y asociación dentro de un sistema bibliográfico.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_02_Representacion_conceptual_de_una_relacion.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_05_Representacion_conceptual_de_una_relacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -403,7 +403,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img26.svg', alt='Figura 6 que representa la arquitectura general de un sistema gestor de bases de datos (DBMS), organizada en niveles lógico y físico, mostrando la estructura jerárquica de la base de datos, los grupos de archivos y los componentes internos de almacenamiento como archivos de datos, extensiones, páginas y registros de log.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_08_Arquitectura_de_un_DBMS.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_06_Arquitectura_de_un_DBMS.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -415,7 +415,7 @@
           img(src='@/assets/curso/tema2/img28.png', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Un sistema gestor de bases de datos (DBMS) está compuesto por diversos elementos que permiten su funcionamiento, entre los que se encuentran el motor de base de datos, encargado del almacenamiento y la recuperación de la información; el lenguaje de consulta, como SQL, que permite interactuar con los datos; el administrador de transacciones, responsable de garantizar la consistencia de las operaciones; el gestor de almacenamiento, que define cómo se guardan los datos en disco o memoria; y el diccionario de datos, que contiene la definición de la estructura de la base de datos. Según el modelo de datos que utilizan, los DBMS pueden clasificarse en relacionales, orientados a tablas y relaciones; NoSQL, basados en estructuras flexibles; distribuidos, que gestionan datos en múltiples ubicaciones; y en memoria, que almacenan la información en RAM para ofrecer mayor velocidad de acceso.
-        p.mb-0(data-aos="fade-down") Igualmente, se destacan algunos procesos positivos y negativos como son:
+        p.mb-0(data-aos="fade-down") Igualmente, se destacan algunos procesos positivos y negativos, como son:
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -508,7 +508,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img35.svg', alt='Figura 7 que muestra un diagrama de flujo del proceso de interacción entre el usuario, el sistema y la base de datos, describiendo las etapas de inicio de sesión, validación de credenciales, recuperación de contraseña y ejecución de operaciones como consulta y pago, hasta la confirmación y finalización del proceso.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_03_Interaccion_usuario_DBMS_base_de_datos.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_07_Interaccion_usuario_DBMS_base_de_datos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -578,7 +578,7 @@
           li
             i.fas.fa-file-code
             p.mb-0 <b>Relaciones</b>: asociaciones entre entidades (un cliente compra un producto).
-        p.mb-4(data-aos="fade-down") Ssus características son:
+        p.mb-4(data-aos="fade-down") Como características tiene:
         ul.lista-ul--color.mt-4.mb-4(data-aos="fade-down")
           li
             i.fas.fa-file-code
@@ -605,12 +605,12 @@
           span Ejemplo modelo entidad-relación
       .col-12
         figure.desktop.mb-0
-          img(src='@/assets/curso/tema2/img40.svg', alt='Figura 8 que representa un ejemplo de modelo entidad-relación, donde se muestra la entidad cliente identificada por su DNI, relacionada con la entidad pedido mediante una relación uno a muchos. El esquema incluye además la entidad artículo, vinculada al pedido a través de una relación muchos a muchos, incorporando atributos como fecha, cantidad y número de serie para describir las interacciones entre las entidades.')
+          img(src='@/assets/curso/tema2/img55.svg', alt='Figura 8 que representa un ejemplo de modelo entidad-relación, donde se muestra la entidad cliente identificada por su DNI, relacionada con la entidad pedido mediante una relación uno a muchos. El esquema incluye además la entidad artículo, vinculada al pedido a través de una relación muchos a muchos, incorporando atributos como fecha, cantidad y número de serie para describir las interacciones entre las entidades.')
       .col-12.mb-4
         figure.movil.mb-0
-          img(src='@/assets/curso/tema2/img40.svg', alt='Figura 8 que representa un ejemplo de modelo entidad-relación, donde se muestra la entidad cliente identificada por su DNI, relacionada con la entidad pedido mediante una relación uno a muchos. El esquema incluye además la entidad artículo, vinculada al pedido a través de una relación muchos a muchos, incorporando atributos como fecha, cantidad y número de serie para describir las interacciones entre las entidades.')
+          img(src='@/assets/curso/tema2/img55.svg', alt='Figura 8 que representa un ejemplo de modelo entidad-relación, donde se muestra la entidad cliente identificada por su DNI, relacionada con la entidad pedido mediante una relación uno a muchos. El esquema incluye además la entidad artículo, vinculada al pedido a través de una relación muchos a muchos, incorporando atributos como fecha, cantidad y número de serie para describir las interacciones entre las entidades.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_09_Ejemplo_modelo_entidad_relacion.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_08_Ejemplo_modelo_entidad_relacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -686,7 +686,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img44.svg', alt='Figura 9 que muestra un ejemplo de modelo lógico de base de datos, donde se representan las tablas Cliente, Pedido y Artículo con sus respectivos atributos, claves primarias y claves foráneas, así como las relaciones entre ellas. El diagrama evidencia una relación uno a muchos entre Cliente y Pedido, y una relación muchos a muchos entre Pedido y Artículo, resuelta mediante una tabla intermedia.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_10_Ejemplo_modelo_logico.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_09_Ejemplo_modelo_logico.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
@@ -764,7 +764,7 @@
         figure.movil.mb-0
           img(src='@/assets/curso/tema2/img49.svg', alt='Figura 10 que representa un modelo físico de una base de datos relacional para la gestión de eventos deportivos y venta de entradas. En la imagen se detallan tablas como person, ticket, sporting_event, sporting_team, sport_location, city y ticket_purchase_hist, cada una con sus claves primarias y foráneas. El diagrama muestra las relaciones entre personas, equipos, eventos, ubicaciones y compras de tickets, evidenciando cómo se estructuran los datos, se definen las dependencias entre tablas y se garantiza la integridad referencial dentro del sistema.')
       .col-auto.movil
-        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_04_Ejemplo_modelo_fisico_SQL.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_10_Ejemplo_modelo_fisico_SQL.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
